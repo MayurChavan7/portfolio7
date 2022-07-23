@@ -65,7 +65,7 @@ function Experience() {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
           Schilder Scolarship Holder which is organized by VJTI.<br></br>
-          Stood 1st in 12th standard in Scienece Stream.
+          Stood 1st in 12th standard in Science Stream.
           </h4>
         </VerticalTimelineElement>
       </VerticalTimeline>
