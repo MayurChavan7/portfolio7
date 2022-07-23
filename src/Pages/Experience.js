@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   VerticalTimeline,
@@ -17,12 +16,11 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
-            S M V M Watur 
-          </h3>
+          <h3 className="vertical-timeline-element-title">S M V M Watur</h3>
           <h4 className="vertical-timeline-element-subtitle">
-          Secondary School Education<br/>
-          Persentage:92%
+            Secondary School Education
+            <br />
+            Persentage:92%
           </h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -36,8 +34,31 @@ function Experience() {
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
-          Science Stream <br/>
-          Persentage:85%
+            Science Stream <br />
+            Persentage:85%
+          </h4>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2019-present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">B.tech</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Pursuing B.tech in Electronics Engineering from VJTI,Mumbai.
+          </h4>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Achievements:</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Schilder Scolarship Holder which is organized by VJTI.<br></br>
+            Stood 1st in 12th standard in Science Stream.
           </h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -47,25 +68,25 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-           B.tech
+            Full stack development Internship
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-           Pursuing B.tech in Electronics Engineering from VJTI,Mumbai.
+            Intern as a full stack developer at Acmegrade.
           </h4>
         </VerticalTimelineElement>
-
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-         
+          date="2019-present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Achievements:
+            Research Internship
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-          Schilder Scolarship Holder which is organized by VJTI.<br></br>
-          Stood 1st in 12th standard in Science Stream.
+            Research Assistant: Worked as a Research Assistant
+            and Developer under Dr. D. P. Rathod from VJTI Mumbai Developed a
+            Movie Recommendation System Tech Stack - Python, Streamlit Library
           </h4>
         </VerticalTimelineElement>
       </VerticalTimeline>
