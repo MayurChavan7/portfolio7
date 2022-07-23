@@ -135,18 +135,7 @@ function Home() {
                 />
                
               </li>
-              <li className="item">
-            
-                <h3 className="heading">Others</h3>
-                <img 
-                  className="photo"
-                  src="https://previews.123rf.com/images/essaphear/essaphear1709/essaphear170900001/86808937-data-science-logo-icon-design-vector.jpg"
-                  alt="html5"
-                  width="40"
-                  height="40"
-                />
-               
-              </li>
+              
             </ol>
           </div>
         </section>
