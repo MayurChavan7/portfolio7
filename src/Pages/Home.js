@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-import Mayur from "../assets/Mayur.jpeg";
+import Mayur from "../assets/port.jpeg";
 function Home() {
   return (
     <>
