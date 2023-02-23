@@ -11,6 +11,8 @@ import express from "../assets/express.png"
 import mongo from "../assets/mongo.jpeg"
 import python from "../assets/python.jpeg"
 import js from "../assets/js.png"
+import material from "../assets/material1.png"
+import git from "../assets/Git.png"
 function Home() {
   return (
     <>
@@ -127,7 +129,23 @@ function Home() {
                 />
               </li>
               <li className="item">
-             
+                <h3 className="heading">Others</h3>
+                <img
+                  className="photo"
+                  src={git}
+                  alt="nodejs"
+                  width="40"
+                  height="40"
+                />
+                <img
+                  className="photo"
+                  src={material}
+                  alt="express"
+                  width="40"
+                  height="40"
+                />
+              </li>
+              <li className="item">
                 <h3 className="heading">Development Tools</h3>
                 <img 
                   className="photo"

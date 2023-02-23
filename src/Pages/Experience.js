@@ -68,10 +68,10 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full stack development Internship
+            web development Internship
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Intern as a full stack developer at Acmegrade.
+            Intern as a web developer at Acmegrade.
           </h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -86,7 +86,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Research Assistant: Worked as a Research Assistant
             and Developer under Dr. D. P. Rathod from VJTI Mumbai Developed a
-            Movie Recommendation System Tech Stack - Python, Streamlit Library
+            Home Price Prediction System Tech Stack - Python, Flask
           </h4>
         </VerticalTimelineElement>
       </VerticalTimeline>
